@@ -1,0 +1,27 @@
+html{
+ font-size:16px;
+}
+
+body{
+	background:#3FE31D;
+}
+
+.header{
+ color:#FD8100;
+ font-style:italic;
+ text-align:center;
+}
+
+.footer{
+  position:absolute;
+  bottom: 0;
+  left:45%;
+  color:red;
+  opacity:0.7;
+}
+
+
+  .container{
+	 border-bottom:1px solid #E3471D;
+	 margin:2% 0;
+   }

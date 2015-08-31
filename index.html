@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>API-REST</title>
+	<link rel="stylesheet" href="style1.css">
+	<script src="jquery.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<header class="header">
+		<h1>Conectando Api Clima</h1>
+	</header>
+	<nav class="nav">
+		<form action="" class="nav__form">
+		 <input id="texto"  class="text_ciudad" type="text" placeholder="ciudad" required/>
+		 <input id="boton"  class="boton_ciudad" type="button" value="Agregar" />
+		</form>
+	</nav>
+	<div class="loader">
+		..Cargando
+	</div>
+	<main class="container">
+	 <template  id="template">
+		<span data-province class="data_province"></span>
+		<span data-fecha class="data_fecha"></span>
+        <div class="content1">
+           <span><img src="" data-image class="data_image"/></span>
+           <span data-temp class="data_temp"></span>
+        </div>
+        <div class="content2">
+        	<span data-temp="max" class="data_tempmax"></span>
+        	<span data-temp="min" class="data_tempmin"></span>
+        	<span data-desc class="data_descri"></span>
+        </div>
+	 </template>
+	 </main>
+	
+
+	<footer class="footer">
+		<p>
+		  <strong>Platzi By 2015</strong>
+		</p>
+	</footer>
+	<script>
+     inicio();
+	</script>
+</body>
+</html>
